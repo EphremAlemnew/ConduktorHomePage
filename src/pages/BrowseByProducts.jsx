@@ -73,6 +73,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -91,6 +95,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -109,6 +117,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -127,6 +139,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -145,6 +161,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -163,6 +183,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -207,6 +231,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -225,6 +253,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -243,6 +275,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -261,6 +297,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -305,6 +345,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}
@@ -323,6 +367,10 @@ const BrowseByProducts = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateY(-8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text
               p={"3"}

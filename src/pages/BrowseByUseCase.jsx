@@ -40,6 +40,10 @@ const BrowseByUseCase = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateX(8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text p={"3"} color={"#17333b"}>
               <RxDoubleArrowRight />
@@ -51,6 +55,10 @@ const BrowseByUseCase = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateX(8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text p={"3"} color={"#17333b"}>
               <RxDoubleArrowRight />
@@ -62,6 +70,10 @@ const BrowseByUseCase = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateX(8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text p={"3"} color={"#17333b"}>
               <RxDoubleArrowRight />
@@ -73,6 +85,10 @@ const BrowseByUseCase = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateX(8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text p={"3"} color={"#17333b"}>
               <RxDoubleArrowRight />
@@ -84,6 +100,10 @@ const BrowseByUseCase = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateX(8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text p={"3"} color={"#17333b"}>
               <RxDoubleArrowRight />
@@ -95,6 +115,10 @@ const BrowseByUseCase = () => {
             borderColor={"gray.200"}
             fontWeight={"bold"}
             textDecoration={"none"}
+            _hover={{
+              transform: "translateX(8px)",
+              transition: "transform 0.2s ease-in-out",
+            }}
           >
             <Text p={"3"} color={"#17333b"}>
               <RxDoubleArrowRight fontWeight={"bolder"} />
