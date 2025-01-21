@@ -6,6 +6,7 @@ import {
   VStack,
   useDisclosure,
   Text,
+  Link,
 } from "@chakra-ui/react";
 
 import { useColorMode } from "../ui/color-mode";
@@ -41,7 +42,7 @@ const NavBbar = () => {
       justifyContent={"space-between"}
     >
       {/* Logo or App Name */}
-      <HStack>
+      <Link href="/" textDecoration={"none"} variant={"plain"}>
         <BiLogoDrupal size={30} />
         <Text color={"#17333b"} fontSize="2xl" fontWeight="bold">
           conduktor
@@ -49,7 +50,7 @@ const NavBbar = () => {
         <Text fontSize="2xl" color={"#86a157"} fontWeight={"lighter"}>
           docs
         </Text>
-      </HStack>
+      </Link>
       <Spacer />
 
       {/* Desktop Navigation Links */}
@@ -95,7 +96,63 @@ const NavBbar = () => {
           </DrawerHeader>
           <DrawerBody>
             <Box>
-              <VStack spacing={4} align="start" w={"full"}></VStack>
+              <VStack fontFamily={"roboto"} spacing={4} w={"full"}>
+                <Button
+                  w={"1/2"}
+                  borderBottom={"sm"}
+                  borderBottomColor={"gray.300"}
+                  fontWeight={"bold"}
+                  variant={"plain"}
+                >
+                  Console
+                </Button>
+                <Button
+                  w={"1/2"}
+                  borderBottom={"sm"}
+                  borderBottomColor={"gray.300"}
+                  fontWeight={"bold"}
+                  variant={"plain"}
+                >
+                  Gateway
+                </Button>
+                <Button
+                  w={"1/2"}
+                  borderBottom={"sm"}
+                  borderBottomColor={"gray.300"}
+                  fontWeight={"bold"}
+                  variant={"plain"}
+                >
+                  Blog
+                </Button>
+                <Button
+                  w={"1/2"}
+                  borderBottom={"sm"}
+                  borderBottomColor={"gray.300"}
+                  fontWeight={"bold"}
+                  variant={"plain"}
+                >
+                  Changelog
+                </Button>{" "}
+                <Button
+                  w={"1/2"}
+                  borderBottom={"sm"}
+                  borderBottomColor={"gray.300"}
+                  fontWeight={"bold"}
+                  variant={"plain"}
+                >
+                  FAQ
+                </Button>
+                <Button
+                  variant={"plain"}
+                  onClick={toggleColorMode}
+                  rounded={"md"}
+                  bg={"#bcf553"}
+                  fontWeight={"bold"}
+                  px={"8"}
+                >
+                  Get Started
+                </Button>
+              </VStack>
             </Box>
           </DrawerBody>
           <DrawerFooter></DrawerFooter>
