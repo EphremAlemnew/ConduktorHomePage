@@ -16,6 +16,7 @@ import {
   BsWindowSidebar,
 } from "react-icons/bs";
 import BrowseByProducts from "./BrowseByProducts";
+import BrowseByUseCase from "./BrowseByUseCase";
 
 const Home = () => {
   return (
@@ -148,6 +149,7 @@ const Home = () => {
         </SimpleGrid>
       </Box>
       <BrowseByProducts />
+      <BrowseByUseCase />
     </VStack>
   );
 };
