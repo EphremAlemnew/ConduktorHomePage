@@ -17,6 +17,7 @@ import {
 } from "react-icons/bs";
 import BrowseByProducts from "./BrowseByProducts";
 import BrowseByUseCase from "./BrowseByUseCase";
+import UsefulLinks from "./UsefulLinks";
 
 const Home = () => {
   return (
@@ -150,6 +151,7 @@ const Home = () => {
       </Box>
       <BrowseByProducts />
       <BrowseByUseCase />
+      <UsefulLinks />
     </VStack>
   );
 };

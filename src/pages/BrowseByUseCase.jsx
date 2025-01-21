@@ -8,50 +8,16 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-import {
-  BiArrowToRight,
-  BiData,
-  BiEqualizer,
-  BiInjection,
-  BiLock,
-  BiShare,
-  BiStar,
-  BiToggleLeft,
-  BiTrafficCone,
-} from "react-icons/bi";
-import { BsFillMarkdownFill, BsMarkdown, BsMarkerTip } from "react-icons/bs";
-import { CiMonitor } from "react-icons/ci";
-import { FaMarker } from "react-icons/fa";
-import { FaRadiation } from "react-icons/fa6";
-import { HiMiniBellAlert, HiSpeakerWave } from "react-icons/hi2";
-import {
-  IoAlert,
-  IoCheckmarkCircle,
-  IoLockClosed,
-  IoSettings,
-} from "react-icons/io5";
-import { LuLink } from "react-icons/lu";
-import {
-  MdDataUsage,
-  MdEqualizer,
-  MdMobiledataOff,
-  MdTraffic,
-} from "react-icons/md";
+
 import { RxDoubleArrowRight } from "react-icons/rx";
 
 const BrowseByUseCase = () => {
   return (
-    <VStack my={"16"} alignItems={"start"}>
+    <VStack mt={{ base: "4", lg: "8" }} alignItems={"start"}>
       <Text fontWeight={"bolder"} fontSize={"3xl"}>
         Browse by Use Case
       </Text>
-      <Stack
-        w={"full"}
-        borderBottom={"sm"}
-        borderBottomColor={"gray.200"}
-        py={"10"}
-        direction={{ base: "column", md: "row" }}
-      >
+      <Stack w={"full"} py={"10"} direction={{ base: "column", md: "row" }}>
         <VStack w={"1/2"} alignItems={"start"}>
           <Text fontSize={"2xl"} fontWeight={"bold"}>
             Use cases
