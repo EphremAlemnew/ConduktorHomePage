@@ -6,8 +6,12 @@ import { MdMenuBook } from "react-icons/md";
 
 const UsefulLinks = () => {
   return (
-    <VStack mt={{ base: "4", lg: "8" }} alignItems={"start"}>
-      <Text fontWeight={"bolder"} fontSize={"3xl"}>
+    <VStack
+      fontFamily={"roboto"}
+      mt={{ base: "4", lg: "8" }}
+      alignItems={"start"}
+    >
+      <Text color={"#17333b"} fontWeight={"bolder"} fontSize={"3xl"}>
         Useful links
       </Text>
       <Stack

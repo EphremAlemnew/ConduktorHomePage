@@ -1,46 +1,17 @@
-import {
-  Button,
-  HStack,
-  Link,
-  SimpleGrid,
-  Stack,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
+import { Link, SimpleGrid, Stack, Text, VStack } from "@chakra-ui/react";
 import React from "react";
-import {
-  BiData,
-  BiEqualizer,
-  BiInjection,
-  BiLock,
-  BiShare,
-  BiStar,
-  BiToggleLeft,
-  BiTrafficCone,
-} from "react-icons/bi";
-import { BsFillMarkdownFill, BsMarkdown, BsMarkerTip } from "react-icons/bs";
-import { CiMonitor } from "react-icons/ci";
-import { FaMarker } from "react-icons/fa";
-import { FaRadiation } from "react-icons/fa6";
-import { HiMiniBellAlert, HiSpeakerWave } from "react-icons/hi2";
-import {
-  IoAlert,
-  IoCheckmarkCircle,
-  IoLockClosed,
-  IoSettings,
-} from "react-icons/io5";
+import { BiInjection, BiLock, BiShare, BiToggleLeft } from "react-icons/bi";
+import { BsFillMarkdownFill } from "react-icons/bs";
+
+import { HiMiniBellAlert } from "react-icons/hi2";
+import { IoCheckmarkCircle, IoLockClosed, IoSettings } from "react-icons/io5";
 import { LuLink } from "react-icons/lu";
-import {
-  MdDataUsage,
-  MdEqualizer,
-  MdMobiledataOff,
-  MdTraffic,
-} from "react-icons/md";
+import { MdEqualizer, MdTraffic } from "react-icons/md";
 
 const BrowseByProducts = () => {
   return (
-    <VStack my={"16"} alignItems={"start"}>
-      <Text fontWeight={"bolder"} fontSize={"3xl"}>
+    <VStack fontFamily={"roboto"} my={"16"} alignItems={"start"}>
+      <Text color={"#17333b"} fontWeight={"bolder"} fontSize={"3xl"}>
         Browse by Products
       </Text>
       <Stack
@@ -51,7 +22,7 @@ const BrowseByProducts = () => {
         direction={{ base: "column", md: "row" }}
       >
         <VStack w={"1/2"} alignItems={"start"}>
-          <Text fontSize={"2xl"} fontWeight={"bold"}>
+          <Text color={"#17333b"} fontSize={"2xl"} fontWeight={"bold"}>
             Scale
           </Text>
           <Text color={"gray.500"}>
@@ -209,7 +180,7 @@ const BrowseByProducts = () => {
         direction={{ base: "column", md: "row" }}
       >
         <VStack w={"1/2"} alignItems={"start"}>
-          <Text fontSize={"2xl"} fontWeight={"bold"}>
+          <Text color={"#17333b"} fontSize={"2xl"} fontWeight={"bold"}>
             Shield
           </Text>
           <Text color={"gray.500"}>
@@ -323,7 +294,7 @@ const BrowseByProducts = () => {
         direction={{ base: "column", md: "row" }}
       >
         <VStack w={"1/2"} alignItems={"start"}>
-          <Text fontSize={"2xl"} fontWeight={"bold"}>
+          <Text color={"#17333b"} fontSize={"2xl"} fontWeight={"bold"}>
             Exchange
           </Text>
           <Text color={"gray.500"}>

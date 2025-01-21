@@ -24,6 +24,7 @@ const Home = () => {
     <VStack spacing={16} mt={"24"} mx={{ base: "4", lg: "72" }} align="stretch">
       <Box>
         <Stack
+          fontFamily={"roboto"}
           rounded={"xl"}
           bg={"#e9f7f7"}
           w={"full"}
@@ -64,6 +65,7 @@ const Home = () => {
           />
         </Stack>
         <SimpleGrid
+          fontFamily={"roboto"}
           columns={{
             base: 1,
             md: 3,

@@ -13,13 +13,17 @@ import { RxDoubleArrowRight } from "react-icons/rx";
 
 const BrowseByUseCase = () => {
   return (
-    <VStack mt={{ base: "4", lg: "8" }} alignItems={"start"}>
-      <Text fontWeight={"bolder"} fontSize={"3xl"}>
+    <VStack
+      fontFamily={"roboto"}
+      mt={{ base: "4", lg: "8" }}
+      alignItems={"start"}
+    >
+      <Text color={"#17333b"} fontWeight={"bolder"} fontSize={"3xl"}>
         Browse by Use Case
       </Text>
       <Stack w={"full"} py={"10"} direction={{ base: "column", md: "row" }}>
         <VStack w={"1/2"} alignItems={"start"}>
-          <Text fontSize={"2xl"} fontWeight={"bold"}>
+          <Text color={"#17333b"} fontSize={"2xl"} fontWeight={"bold"}>
             Use cases
           </Text>
           <Text color={"gray.500"}>

@@ -1,30 +1,16 @@
 import {
-  Flex,
   Box,
   HStack,
-  Link,
-  IconButton,
   Spacer,
   Button,
   VStack,
   useDisclosure,
   Text,
-  Input,
 } from "@chakra-ui/react";
-import { Link as RouterLink } from "react-router-dom";
+
 import { useColorMode } from "../ui/color-mode";
+import { BiMenu, BiX, BiLogoDrupal } from "react-icons/bi";
 import {
-  BiMoon,
-  BiSun,
-  BiMenu,
-  BiX,
-  BiAbacus,
-  BiSquare,
-  BiLogoDrupal,
-} from "react-icons/bi";
-import { useColorModeValue } from "../ui/color-mode";
-import {
-  DrawerActionTrigger,
   DrawerBackdrop,
   DrawerBody,
   DrawerCloseTrigger,
@@ -35,8 +21,6 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import { Avatar, AvatarGroup } from "../ui/avatar";
-import { BsSquare } from "react-icons/bs";
 const NavBbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onToggle } = useDisclosure();
@@ -59,7 +43,7 @@ const NavBbar = () => {
       {/* Logo or App Name */}
       <HStack>
         <BiLogoDrupal size={30} />
-        <Text fontSize="2xl" fontWeight="bold">
+        <Text color={"#17333b"} fontSize="2xl" fontWeight="bold">
           conduktor
         </Text>
         <Text fontSize="2xl" color={"#86a157"} fontWeight={"lighter"}>
@@ -70,7 +54,7 @@ const NavBbar = () => {
 
       {/* Desktop Navigation Links */}
       <Spacer />
-      <HStack display={{ base: "none", md: "flex" }}>
+      <HStack fontFamily={"roboto"} display={{ base: "none", md: "flex" }}>
         <Button fontWeight={"bold"} variant={"plain"}>
           Console
         </Button>

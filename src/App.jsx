@@ -7,7 +7,7 @@ import Sidebar from "./components/common/SideBar";
 import HomePage from "./pages/HomePage";
 import NavBbar from "./components/common/NavBbar";
 import Home from "./pages/Home";
-
+import "@fontsource/roboto";
 const App = () => {
   return (
     <Flex>
