@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 
 import { useColorMode } from "../ui/color-mode";
-import { BiMenu, BiX, BiLogoDrupal } from "react-icons/bi";
+import { BiMenu, BiX, BiLogoDrupal, BiMoon, BiSun } from "react-icons/bi";
 import {
   DrawerBackdrop,
   DrawerBody,
@@ -82,7 +82,9 @@ const NavBbar = () => {
           Get Started
         </Button>
       </HStack>
-
+      <Button variant={"plain"} onClick={toggleColorMode} rounded={"full"}>
+        {colorMode === "light" ? <BiMoon /> : <BiSun />}
+      </Button>
       <DrawerRoot placement={"top"}>
         <DrawerBackdrop />
         <DrawerTrigger asChild>
